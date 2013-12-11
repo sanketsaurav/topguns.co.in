@@ -1,0 +1,57 @@
+{
+	"akash" : {
+		"name" : "Akash Kumar", 
+		"position" : "Captain",
+		"fb" : "akash33776",
+		"team" : "4",
+		"email" : "",
+		"phone" : ""
+	},
+	"priya" : {
+		"name" : "Priya Tewary", 
+		"position" : "Vice-captain",
+		"fb" : "",
+		"team" : "4"
+	},
+	"neha" : {
+		"name" : "Neha Awasthy", 
+		"position" : "Technical",
+		"fb" : "",
+		"team" : "4"
+	},
+	"sanket" : {
+		"name" : "Sanket Saurav", 
+		"position" : "Sponsorship",
+		"fb" : "sanketsaurav"
+	},
+	"anandmoy" : {
+		"name" : "Anandmoy Roy", 
+		"position" : "Technical",
+		"fb" : ""
+	},
+	"indrani" : {
+		"name" : "Indrani Mahto", 
+		"position" : "Technical",
+		"fb" : ""
+	},
+	"sushant" : {
+		"name" : "Sushant Snehi", 
+		"position" : "Fabrication",
+		"fb" : ""
+	},
+	"prashant" : {
+		"name" : "Prashant Kartikeya", 
+		"position" : "Captain",
+		"fb" : ""
+	},
+	"abhishek" : {
+		"name" : "Abhishek Kumar", 
+		"position" : "Vice-captain",
+		"fb" : ""
+	},
+	"deepankar" : {
+		"name" : "Deepankar Sinha", 
+		"position" : "",
+		"fb" : ""
+	},
+}
