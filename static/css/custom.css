@@ -1,0 +1,18 @@
+@import url(http://fonts.googleapis.com/css?family=Lora:700);
+@import url(http://fonts.googleapis.com/css?family=Raleway:500,600);
+
+h1.section-title {
+	font-family: 'Lora', serif;
+}
+
+h3.section-title {
+	font-family: 'Raleway', sans-serif;
+}
+.section-title small {
+	font-family: 'Raleway', sans-serif;
+}
+.section-desc {
+	font-size: 20px;
+	font-family: 'Raleway', sans-serif;
+	line-height: 1.5;
+}
