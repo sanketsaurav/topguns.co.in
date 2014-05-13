@@ -18,6 +18,14 @@
     <link href="ico/apple-touch-icon-114x114.png" rel="apple-touch-icon" sizes="114x114">
 </head>
 <body class="home" data-spy="scroll" data-target=".documentation-nav">
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&appId=612392062161270&version=v2.0";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
     <div class="container">
         <div class="row">
             <header class="span3">
@@ -33,34 +41,16 @@
                             <nav class="nav-collapse collapse">
                                 <ul class="nav">
                                     <li class="nav-home"><a href="/">Home</a></li>
-                                    <!-- <li class="dropdown nav-portfolio">
-                                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">
-                                            The Team
-                                            <b class="caret"></b>
-                                        </a>
-                                        <ul class="dropdown-menu">
-                                            <li class="nav-portfolio-2"><a href="portfolio-2.html">1.0</a></li>
-                                            <li class="nav-portfolio-3"><a href="portfolio-3.html">2.0</a></li>
-                                            <li class="nav-portfolio-item"><a href="portfolio-item.html">3.0</a></li>
-                                            <li class="nav-portfolio-item"><a href="portfolio-item.html">4.0</a></li>
-                                            <li class="nav-portfolio-item"><a href="portfolio-item.html">5.0</a></li>
-                                        </ul>
-                                    </li> -->
-                                    <li class="nav-team"><a href="/team">The Team</a></li>
-                                    <li class="nav-event"><a href="/event">Events</a></li>
-                                    <li class="nav-achievements"><a href="/achievements">Achievements</a></li>
-                                    <li class="nav-sponsor"><a href="/sponsor">Sponsor</a></li>
+                                    <li class="nav-team"><a href="/people">People</a></li>
+                                    <li class="nav-achievements"><a href="/aircrafts">Aircrafts</a></li>
+                                    <li class="nav-sponsor"><a href="/sponsorship">Sponsorship</a></li>
                                     <li class="nav-contact"><a href="/contact">Contact</a></li>
                                 </ul>
                             </nav>
                         </div><!-- /navbar-inner -->
                     </div><!-- /navbar -->
                     <aside class="span3 text-center hidden-phone">
-                        <ul class="social inline">
-                            <li><a class="btn btn-small" href="#"><i class="icon-facebook"></i></a></li>
-                            <li><a class="btn btn-small" href="#"><i class="icon-twitter"></i></a></li>
-                            <li><a class="btn btn-small" href="#"><i class="icon-linkedin"></i></a></li>
-                        </ul>
+                        <div class="fb-like-box" data-href="https://www.facebook.com/teamtopguns" data-width="200" data-colorscheme="dark" data-show-faces="false" data-header="false" data-stream="false" data-show-border="false"></div>
                         <p>Made with &hearts; by <a href="http://fb.com/sanketsaurav">Sanket</a></p>
                     </aside>
                 </div><!-- /affix -->
@@ -93,11 +83,12 @@
     </div><!-- /container -->
 
     <script src="/static/js/libs/jquery.min.js"></script>
-    <!--<script src="http://maps.google.com/maps/api/js?sensor=true"></script>-->
-    <!--<script src="/static/js/libs/jquery.ui.map.min.js"></script>-->
     <script src="/static/bootstrap/js/bootstrap.min.js"></script>
     <script src="/static/js/libs/jquery.imagesloaded.min.js"></script>
     <script src="/static/js/libs/cbpBGSlideshow.min.js"></script>
     <script src="/static/js/script.js"></script>
+    <script>
+    $(".member-image").popover();
+</script>
 </body>
 </html>
